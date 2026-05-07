@@ -1,0 +1,15 @@
+import datetime
+
+d = datetime.datetime.today()
+print("current date is:",d)
+print(d.year)
+print(d.month)
+print(d.day)
+print(d.hour)
+print(d.minute)
+print(d.second)
+print(d.microsecond)
+print(d.strftime(" %Y-%M-%D %H:%M:%S"))
+print(d.strftime(" %A %B %d %y"))
+print(d.min)
+print(d.max)
